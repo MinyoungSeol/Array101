@@ -25,7 +25,7 @@ class Solution:
         return result
     
 # %%
-def run_text_case():
+def run_test_case():
     """Run predefined test cases."""
 
     solution = Solution()
@@ -46,5 +46,5 @@ def run_text_case():
 
 # %%
 if __name__ == "__main__":
-    run_text_case()
+    run_test_case()
 # %%

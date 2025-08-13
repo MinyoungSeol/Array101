@@ -31,7 +31,7 @@ class Solution:
         return evenCount
     
 # %%
-def run_text_case():
+def run_test_case():
     """Run predefined test cases."""
 
     solution = Solution()
@@ -51,7 +51,7 @@ def run_text_case():
         print(f"Test case: {i + 1}: {nums}, Result: {result}")
 
 # %% 
-def run_interactive_case():
+def run_interactive_test():
     """Run interactive test cases with user input."""
 
     solution = Solution()
@@ -93,9 +93,9 @@ def program():
     while True:
         choice = input("Type option number (1, 2, or 3): ").strip()
         if choice == '1':
-            run_text_case()
+            run_test_case()
         elif choice == '2':
-            run_interactive_case()
+            run_interactive_test()
         elif choice == '3' or choice.lower() in ['quit', 'exit', 'q', 'e']:
             print("Thank you for using the program. Goodbye!")
             break

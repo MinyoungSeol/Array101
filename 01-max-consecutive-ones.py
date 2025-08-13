@@ -26,7 +26,7 @@ class Solution:
         return max_count
 
 # %%
-def run_text_case():
+def run_test_case():
     """Run predefined test cases."""
     
     solution = Solution()
@@ -46,7 +46,7 @@ def run_text_case():
 
 
 # %%
-def run_interactive_case():
+def run_interactive_test():
     """Run interactive test cases with user input."""
 
     solution = Solution()
@@ -98,9 +98,9 @@ def program():
     while True:
         choice = input("Choose an option:\n1. Run predefined test cases\n2. Run interactive test case\n3. Exit\nType option number: ").strip()
         if choice == '1':
-            run_text_case()
+            run_test_case()
         elif choice == '2':
-            run_interactive_case()
+            run_interactive_test()
         elif choice == '3':
             print("Thank you for using the program! Goodbye!")
             break
